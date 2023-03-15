@@ -18,7 +18,7 @@
   --btn-bg-primary: #9595971d;
 }
 .d-flex-gap{
-    gap: 20px !important;
+    gap: 15px !important;
 }
 body {
     background-color: var(--primary-color);
@@ -81,6 +81,9 @@ p{
 .card-border-none{
     border: none !important;
 }
+.card-border-none p{
+    font-size: 0.8em;
+}
 /* Global styles ends here */
 
 
@@ -103,7 +106,7 @@ p{
         var(--gradient-primary) 50%,
         var(--gradient-secondary) 50%
     );
-    filter: blur(3em);
+    filter: blur(4em);
     z-index: -1;
 }
 
@@ -158,10 +161,10 @@ p{
 /* sponsors section ends here */
 
 #footer p{
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 913px) {
    
     h1{
         font-size: 2em;
