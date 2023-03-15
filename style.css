@@ -182,6 +182,8 @@ p{
         padding: 2em 0 !important;
     }
 
-   
+   .flex-lg-column-reverse-css{
+    flex-direction: column-reverse;
+   }
 
 }
