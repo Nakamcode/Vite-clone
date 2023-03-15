@@ -160,3 +160,28 @@ p{
 #footer p{
     font-size: 0.9em;
 }
+
+@media screen and (max-width: 912px) {
+   
+    h1{
+        font-size: 2em;
+    }
+    .subheading{
+        font-size: 1.2em;
+    }
+    .bottom-space{
+        margin-bottom: 2em;
+    }
+    .text-smm-center{
+        text-align: center !important;
+    }
+  .justify-smm-center{
+        justify-content: center !important;
+    }
+    .py-smm{
+        padding: 2em 0 !important;
+    }
+
+   
+
+}
