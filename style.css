@@ -15,6 +15,7 @@
   --text-color: #99999f;
   --border-color: #95959768;
   --low-shade-color: #31313670;
+  --btn-bg-primary: #9595971d;
 }
 .d-flex-gap{
     gap: 20px !important;
@@ -46,11 +47,13 @@ p{
     font-weight: 600 !important;
     font-size: 0.9em;
     border: 1px solid var(--border-color);
-    background-color: #9595971d;
+    background-color: var(--btn-bg-primary);
+    transition: all 0.3s;
 }
 .btn:hover{
     border: 1px solid var(--border-color);
     background-color: #95959711;
+    transition: all 0.3s;
 }
 .btn-blue{
     background-color: #646cff;
@@ -62,9 +65,11 @@ p{
     color: #ff29df !important;
     background-color: #ffffff00;
     border: 1px solid #ff29df;
+    transition: all 0.3s;
 }
 .btn-blue:hover{
     background-color: #7b82fa;
+    transition: all 0.3s;
 }
 .card{
     background-color: #31313670;
