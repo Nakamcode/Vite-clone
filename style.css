@@ -103,7 +103,7 @@ p{
         var(--gradient-primary) 50%,
         var(--gradient-secondary) 50%
     );
-    filter: blur(50px);
+    filter: blur(3em);
     z-index: -1;
 }
 
@@ -185,5 +185,11 @@ p{
    .flex-lg-column-reverse-css{
     flex-direction: column-reverse;
    }
-
+   .w-75{
+    width: 50% !important;
+   }
+   .behind-img{
+    width: 12em;
+    height: 12em;
+   }
 }
